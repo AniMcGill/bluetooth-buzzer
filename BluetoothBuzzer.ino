@@ -1,10 +1,13 @@
 /*
   BluetoothBuzzer
   When a button is pressed, sends a keypress over serial (bluetooth)
+  
+  Natsumi Hoshino <http://www.natsumihoshino.com>
+  2013
  */
  
 // Define the default number of this buzzer
-int buzzerNumber = 4; //edit this
+int buzzerNumber = 1; //edit this
 
 // Define the pin corresponding to the buzzer button
 int buzzerBtn = 2;
